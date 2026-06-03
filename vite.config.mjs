@@ -27,6 +27,7 @@ function getHtmlInputs(dir, baseDir = dir) {
 const htmlInputs = getHtmlInputs(rootDir);
 
 export default defineConfig({
+  base: './',
   root: './www.pulsenova.ch',
   server: {
     port: 3000,
